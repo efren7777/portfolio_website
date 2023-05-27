@@ -38,9 +38,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2019, text: 'Started my journey learning Python for automating trading strategies', },
+  { year: 2020, text: 'Accepted a role on the IBKR Technical Operations Team', },
+  { year: 2021, text: 'Continued to persue building automated trading strategies', },
+  { year: 2022, text: 'Accepted role on the HRT Trading Operations Team', },
+  { year: 2023, text: 'Began to learn HTML, CSS and JS to utilize the React framework and begin building websites', },
 ];
