@@ -12,7 +12,7 @@ const Hero = (props) => (
         my portfolio
       </SectionTitle>
       <SectionText>
-        This is just a cool portfolio project to show off
+      The purpose of this website is to document the life of myself. I hope you enjoy it!
       </SectionText>
       <Button onClick={() => window.location='https://google.com'}> Google</Button>
 

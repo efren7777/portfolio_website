@@ -4,10 +4,33 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
+const projecstDemo = [{
+  title:'Project 1',
+  description:'This is a really long description'
+},{
+  title:'Project 2',
+  description:'This is a really long description'
+},{
+  title:'Project 3',
+  description:'This is a really long description'
+},{
+  title:'Project 3',
+  description:'This is a really long description'
+}];
+
 const Projects = () => (
-  <div>
-    Projects
-  </div>
+  <Section nopadding id="projects">
+    <SectionDivider />
+    <SectionTitle main>Projects</SectionTitle>
+    <GridContainer>
+      {projects.map((project) => (
+        <BlogCard key ={project.id}>
+          <Img src={project.image} />
+          <HeaderThree title>{project.title}</HeaderThree>
+        </BlogCard>
+      ))}
+    </GridContainer>
+  </Section>
 );
 
 export default Projects;
