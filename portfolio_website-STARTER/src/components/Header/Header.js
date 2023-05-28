@@ -22,7 +22,7 @@ const Header = () =>  (
     </li>
     <li>
       <Link href="#tech" legacyBehavior>
-        <NavLink>Technologies</NavLink>
+        <NavLink>Background</NavLink>
       </Link>
     </li>
     <li>
@@ -32,14 +32,11 @@ const Header = () =>  (
     </li>
   </Div2>
   <Div3>
-    <SocialIcons href="https://github.com">
+    <SocialIcons href="https://github.com/efren7777">
       <AiFillGithub size="3rem" />
     </SocialIcons>
-    <SocialIcons href="https://linkedin.com">
+    <SocialIcons href="https://www.linkedin.com/in/evan-french-/">
       <AiFillLinkedin size="3rem" />
-    </SocialIcons>
-    <SocialIcons href="https://instagram.com">
-      <AiFillInstagram size="3rem" />
     </SocialIcons>
 
   </Div3>

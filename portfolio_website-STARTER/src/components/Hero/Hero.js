@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
       The purpose of this website is to document the life of myself. I hope you enjoy it!
       </SectionText>
-      <Button onClick={() => window.location='https://google.com'}> Google</Button>
+      <Button onClick={() => window.location='https://github.com/efren7777'}> Github</Button>
 
     </LeftSection>
   </Section>

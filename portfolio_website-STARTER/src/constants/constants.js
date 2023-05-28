@@ -1,46 +1,19 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    title: 'This site',
+    description: "This site was built as a side project with the goal of learning more about the React framework. I aim to update it over time and make improvements in order to continue learning interesting aspects of web development.",
       image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+      tags: ['React', 'Node', 'Mongo', 'JS'],
+    source: 'https://github.com/efren7777/portfolio_website',
     id: 0,
   },
-  {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 1,
-  },
-  {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
-  },
+
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: 'Started my journey learning Python for automating trading strategies', },
-  { year: 2020, text: 'Accepted a role on the IBKR Technical Operations Team', },
-  { year: 2021, text: 'Continued to persue building automated trading strategies', },
-  { year: 2022, text: 'Accepted role on the HRT Trading Operations Team', },
-  { year: 2023, text: 'Began to learn HTML, CSS and JS to utilize the React framework and begin building websites', },
+  { year: 2019, text: 'Started my journey learning Python to automate stock trading strategies.', },
+  { year: 2020, text: 'Accepted a role on the IBKR Technical Operations Team.', },
+  { year: 2021, text: 'Continued to persue building automated trading strategies and building new skills.', },
+  { year: 2022, text: 'Accepted role on the HRT Trading Operations Team.', },
+  { year: 2023, text: 'Began to learn HTML, CSS and JS to utilize the React framework and begin building websites.', },
 ];

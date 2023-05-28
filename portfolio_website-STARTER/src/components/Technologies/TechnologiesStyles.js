@@ -22,7 +22,6 @@ export const ImageContainer = styled.div`
     margin-top: 16px;
   }
 `
-
 export const MainImage = styled.img`
   width: 100%;
 `
@@ -53,7 +52,7 @@ export const List = styled.ul`
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
-
+  text-align: left;
   @media ${props => props.theme.breakpoints.sm}{
     display: flex;
     margin-left: 18px;
